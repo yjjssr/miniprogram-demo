@@ -1,0 +1,8 @@
+<import src="../../../common/foot.wxml" />
+<import src="../../../common/head.wxml" />
+<view class="container">
+  <template is="head" data="{{title:'view',desc:'view的描述'}}" />
+  <view class="page-body"></view>
+  <template is="foot" />
+  <!-- <view class="bottom">1111</view> -->
+</view>
